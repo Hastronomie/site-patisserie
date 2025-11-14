@@ -358,13 +358,12 @@ html, body {
     margin-bottom: 5%;
 }
 
-.top button:hover
+.div-reduction button:hover
 {
 
-    color: #E9BD8C;
-    background-color: black;
+    color: #933C24;
+    background-color: white;
     border-color: white;
-    transform: scale(1.1); /*zoom*/
 }
 
 /* ===================Discover================= */
@@ -453,7 +452,7 @@ hr
 
 .photos img:hover
 {
-    transform: scale(1.1);
+    transform: scale(1.1);  /*zoom*/
     transition: 0.3s;
 }
 

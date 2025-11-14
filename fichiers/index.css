@@ -876,7 +876,7 @@ hr
     {
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+        /* align-items: flex-start; */
         margin-left: 45px;
         margin-right: 45px;
     }
@@ -886,5 +886,11 @@ hr
         flex-direction: row;
         align-items: center;
         gap:10px;
+    }
+
+    .info-pied h3
+    {
+        text-align: left;
+        padding-left: 54px;
     }
 }

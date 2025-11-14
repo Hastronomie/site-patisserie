@@ -414,8 +414,8 @@ html, body {
 {
     text-decoration: underline;
     text-decoration-color:#933C24;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 2px;
+    text-decoration-thickness: 6px;
+    text-underline-offset: 3px;
     transition: 0.2s;
 }
 
@@ -683,6 +683,7 @@ hr
     width: 100px;
     height: 67px;
     margin-left: 50px;
+    border-radius: 2px;
 }
 
 .actu-pied h5

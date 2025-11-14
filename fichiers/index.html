@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-wigth, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
+        <title>Douceurs & saveurs</title>
+    </head>
+
+
+    <body>
+        <div class="overlay-menu-mobile" onclick="closeMenuMobile()"></div>
+        <header class="header">
+            <div class="logo">
+                <img src="../images/logosvg.svg" alt="Logo">
+            </div>
+            <nav class="menu-nav">
+                <div class="close" onclick="closeMenuMobile()">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                    </svg>
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <li class="menu-link">
+                            <p>Accueil</p>
+                        </li>
+                        <li class="menu-link">
+                            <p>Blog</p>
+                        </li>
+                        <li class="menu-link">
+                            <p>Contact</p>
+                        </li>
+                        <li class="menu-link">
+                            <p>Services</p>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="burger" onclick="openMenuMobile()">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </div>
+        </header>
+
+        <main>
+            <section class="accueil">
+                <div class="intro">
+                            <img src="../images/aplat1.png" alt="Accueil">
+                            <p>Café Délicieux</p>
+                            <h1>Douceurs & </br>Saveurs</h1>
+                            <button type="submit">Commander</button>
+                    </div>
+                </section>
+                <section class="top">
+                    <h3>Nos Tops Produits</h3>
+                    <div class="top-fond">
+                        <img src="../images/gateau1.png" alt="Feuilleté">
+                        <div class="ligne1">
+                            <p class="prix">4€</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+                            </svg>
+                        </div>
+                        <div class="ligne2">
+                            <p class="nom-top">Feuilleté garnis</p>
+                            
+                            <button type=" submit">Ajouter</button>
+                        </div>
+                    </div>
+
+                    <div class="top-fond">
+                        <img src="../images/gateau2.png" alt="Pâtisserie" id="image">
+                        <div class="ligne1">
+                            <p class="prix">4€</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+                            </svg>
+                        </div>
+                        <div class="ligne2">
+                            <p class="nom-top">Pâtisserie danoise</p>
+                            <button type="submit">Ajouter</button>
+                        </div>
+                    </div>
+
+                    <div class="top-fond">
+                        <img src="../images/pain1.png" alt="Baguette">
+                        <div class="ligne1">
+                            <p class="prix">4€</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+                            </svg>
+                        </div>
+                        <div class="ligne2">
+                            <p class="nom-top">Baguette de campagne</p>
+                            <button type="submit">Ajouter</button>
+                        </div>
+                    </div>
+
+                    <div class="top-fond">
+                        <img src="../images/pain2.png" alt="Miche pain blanc">
+                        <div class="ligne1">
+                            <p class="prix">4€</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+                            </svg>
+                        </div>
+                        <div class="ligne2">
+                            <p class="nom-top">Miche de pain blanc</p>
+                            <button type="submit">Ajouter</button>
+                        </div>
+                    </div>
+
+                    <div class="top-fond">
+                        <img src="../images/gateau3.png" alt="Gateau feuilleté">
+                        <div class="ligne1">
+                            <p class="prix">4€</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+                            </svg>
+                        </div>
+                        <div class="ligne2">
+                            <p class="nom-top">Gâteau pâte feuilletée</p>
+                            <button type="submit">Ajouter</button>
+                        </div>
+                    </div>
+
+                    <div class="top-fond">
+                        <img src="../images/pain3.png" alt="Miche pain complet">
+                        <div class="ligne1">
+                            <p class="prix">4€</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+                            </svg>
+                        </div>
+                        <div class="ligne2">
+                            <p class="nom-top">Miche de pain complète</p>
+                            <button type="submit">Ajouter</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="reduction">
+                    <div class="div-reduction">
+                        <h3>20% de Réduction sur la première</br>commande</h3>
+                        <p>Profitez de cette offre pour découvrir</br>nos plus beaux délices !</p>
+                        <button type="submit">En savoir plus</button>
+                    </div>
+                </section>
+                <section class="discover">
+                    <div class="gateaux">
+                        <h3>Découvrir</h3>
+                        <div class ="ligne">
+                            <ul>
+                                <li class="filtre">
+                                    <p>Gâteaux</p>
+                                </li>
+
+                                <li class="filtre">
+                                    <p>Muffins</p>
+                                </li>
+
+                                <li class="filtre">
+                                    <p>Croissants</p>
+                                </li>
+
+                                <li class="filtre">
+                                    <p>Pains</p>
+                                </li>
+
+                                <li class="filtre">
+                                    <p>Tartes</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="photos">
+                        <img src="../images/patis1.png" alt="muffins">
+                        <img src="../images/patis2.png" alt="gateau">
+                        <img src="../images/patis3.png" alt="part de gateau">
+                        <img src="../images/patis4.png" alt="gateau yaourt">
+                        <img src="../images/patis5.png" alt="gateau chocolat">
+                        <img src="../images/patis6.png" alt="petit gateau">
+                    </div>
+                </section>
+
+                <section class="propos">
+                    <div class="propos-contenu">
+                        <h3>À propos</h3>
+                        <p>Un café moderne qui respecte les recettes traditionnelles en vous proposant du “fait maison”.</p>
+                        <button type="submit">Lire plus</button>
+                    </div>
+                </section>
+
+                <section class="petits-plaisirs">
+                    <h3>Petits Plaisirs</h3>
+                    <div class="plaisirs-contenu">
+                        <div class="liste-plaisirs">
+                            <img src="../images/plais1.png" alt="muffins">
+                            <div class="noms-plaisirs">
+                                <p>Pâte feuilletée</p>
+                                <p>3€</p>
+                            </div>
+                        </div>
+                        <div class="liste-plaisirs">
+                            <img src="../images/plais2.png" alt="muffins">
+                            <div class="noms-plaisirs">
+                                <p>Donuts</p>
+                                <p>3€</p>
+                            </div>
+                        </div>
+                        <div class="liste-plaisirs">
+                            <img src="../images/plais3.png" alt="muffins">
+                            <div class="noms-plaisirs">
+                                <p>Brownies</p>
+                                <p>3€</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+        </main>
+        <script>
+            function openMenuMobile()
+            {
+                document.querySelector ('.menu-nav').classList.add('open');
+                document.querySelector ('.overlay-menu-mobile').classList.add('open');
+            }
+            function closeMenuMobile() 
+            {
+                document.querySelector('.menu-nav').classList.remove('open');
+                document.querySelector('.overlay-menu-mobile').classList.remove('open');
+            }
+        </script>
+    </body>
+
+
+    <footer>
+        <section class="suivre">
+            <div class="suivre-pied">
+                <img id="logo-pied" src="../images/logosvg.svg" alt="Logo">
+                <div class="suivre-box">
+                    <p>Suivez-nous</p>
+                    <ul>
+                        <li><img src="../images/facebook.svg" alt="facebook"></li>
+                        <li><img src="../images/pinterestr.svg" alt="Pinterestr"></li>
+                        <li><img src="../images/tel.svg" alt="whatsapp"></li>
+                        <li><img src="../images/insta.svg" alt="instagram"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="info-pied">
+            <div class="info-contenu">
+                <div class="apropos">
+                    <h3>À propos</h3>
+                    <div class="propos-pied">
+                        <p>02 38 00 00 00</p>
+                        <p>bakery@coda.school</p>
+                        <p>24 Rue Jeanne d’Arc</br>45000 Orléans</p>
+                    </div>
+                </div>
+
+                <div class="explorer">
+                    <h3>Explorer</h3>
+                    <div class="explo-pied">
+                        <p>Accueil</p>
+                        <p>Blog</p>
+                        <p>Contact</p>
+                        <p>Services</p>
+                    </div>
+                </div>
+
+                <div class="actu">
+                    <div class="actu-pied">
+                        <h3>Actualité</h3>
+                        <div class="actu1">
+                            <img src="../images/actu1.png" alt="actu gateau">
+                            <div class="info1">
+                                <h5>14 Juin 2024</h5>
+                                <p>Nouveau délice</p>
+                            </div>
+                        </div>
+                        <div class="actu2">
+                            <img src="../images/actu2.png" alt="actu pain">
+                            <div class="info2">
+                                <h5>14 Juin 2024</h5>
+                                <p>Pain au raisin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="copy">
+            <p>&copy; 2025 Coda Bakery.</br>Tous droits réservés</p>
+        </section>
+    </footer>
+</html>
